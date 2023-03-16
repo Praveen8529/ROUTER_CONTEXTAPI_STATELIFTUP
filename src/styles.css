@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  padding: 16px;
+}
+
+.conent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 300px;
+}
+.Login .Home {
+  width: 100px; /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto; /* Magic! */
+}
