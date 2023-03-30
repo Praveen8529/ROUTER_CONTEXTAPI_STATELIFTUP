@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Link
+  Link,
 } from "react-router-dom";
 import { useState, useContext, createContext } from "react";
 import { UseValidation } from "./useValidation";
@@ -50,7 +50,7 @@ export const LoginPage = ({ liftUp }) => {
   };
   const handelSubmit = () => {
     const g = UseValidation(data);
-    console.log(g);
+    console.log("UseValidation updates", g);
     if (data.useName.length === 0 || data.pwd.length === 0) navigate("/err");
     else {
       navigate("/Home");
