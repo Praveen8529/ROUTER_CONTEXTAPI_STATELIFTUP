@@ -50,7 +50,7 @@ export const LoginPage = ({ liftUp }) => {
   };
   const handelSubmit = () => {
     const g = UseValidation(data);
-    console.log(g1);
+    console.log("UseValidation updates", g);
     if (data.useName.length === 0 || data.pwd.length === 0) navigate("/err");
     else {
       navigate("/Home");
